@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    Github Search
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  Client-side application, which queries the GitHub API and shows the repositories for a specific user with React. This application was approved as a challenge by the company Trinity, as a test for the front-end development.
+</h4>
 
-In the project directory, you can run:
+![App Screenshot](https://res.cloudinary.com/dmmewbzfi/image/upload/v1584050815/github-search01_zm2uor.png)
 
-### `yarn start`
+![App Screenshot](https://res.cloudinary.com/dmmewbzfi/image/upload/v1584050816/github-search02_f1ze3l.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="https://githubsearch.netlify.com/" target="_blank">
+    <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png">
+  </a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies
 
-### `yarn test`
+This project was developed with the following technologies:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://reactjs.org/)
+- [React Router v4](https://github.com/ReactTraining/react-router)
+- [Axios](https://github.com/axios/axios)
+- [styled-components](https://www.styled-components.com/)
+- [React-Icons](https://react-icons.netlify.com/)
+- [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-### `yarn build`
+## How To Use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer. From your command line:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Clone this repository
+$ git clone https://github.com/brenoricco/github-search-react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Go into the repository
+$ cd github-search
 
-### `yarn eject`
+# Install dependencies
+$ yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Run the app
+$ yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/react-rocketshoes/blob/master/LICENSE) for more information.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
