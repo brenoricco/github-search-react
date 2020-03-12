@@ -1,7 +1,4 @@
 <h1 align="center">
-    <img alt="Trinity" src="https://res.cloudinary.com/dmmewbzfi/image/upload/v1584052689/trinity_jfdqx8.png" />
-    <img alt="React" src="https://res.cloudinary.com/dmmewbzfi/image/upload/v1584052690/react_oidecl.png" />
-    <br>
     Github Search
 </h1>
 
