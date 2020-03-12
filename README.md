@@ -6,12 +6,15 @@
   Client-side application, which queries the GitHub API and shows the repositories for a specific user with React. This application was approved as a challenge by the company Trinity, as a test for the front-end development.
 </h4>
 
-![App Screenshot](https://res.cloudinary.com/dmmewbzfi/image/upload/v1584050815/github-search01_zm2uor.png)
+## Screens
 
-![App Screenshot](https://res.cloudinary.com/dmmewbzfi/image/upload/v1584050816/github-search02_f1ze3l.png)
+<h4 align="center">
+  <img src="https://res.cloudinary.com/dmmewbzfi/image/upload/v1584050815/github-search01_zm2uor.png" alt="github-search01">
+  <img src="https://res.cloudinary.com/dmmewbzfi/image/upload/v1584050816/github-search02_f1ze3l.png" alt="github-search02">
+</h4>
 
 <p align="center">
-  <a href="https://githubsearch.netlify.com/" target="_blank">
+  <a href="https://vigilant-bohr-f9cb0c.netlify.com/" target="_blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png">
   </a>
 </p>
