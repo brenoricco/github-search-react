@@ -24,7 +24,7 @@
 This project was developed with the following technologies:
 
 - [ReactJS](https://reactjs.org/)
-- [React Router v4](https://github.com/ReactTraining/react-router)
+- [React Router](https://github.com/ReactTraining/react-router)
 - [Axios](https://github.com/axios/axios)
 - [styled-components](https://www.styled-components.com/)
 - [React-Icons](https://react-icons.netlify.com/)
